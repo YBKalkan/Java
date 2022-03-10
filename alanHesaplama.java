@@ -8,11 +8,11 @@ import java.util.Scanner;
                 Scanner klavye = new Scanner(System.in);
                 double yaricap;
                 double alan;
-                System.out.println("Çenberin Yarıçapını Giriniz: ");
+                System.out.println("Çemberin Yarıçapını Giriniz: ");
 
                 yaricap = klavye.nextInt();
                 alan = yaricap * yaricap * 3.14;
-                System.out.println("Çenberin Alanı: " + alan);
+                System.out.println("Çemberin Alanı: " + alan);
             }
         }
 
